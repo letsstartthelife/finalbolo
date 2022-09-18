@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact page</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+            .imageContainer {
+                 width: 1200px;
+                 display: inline-block;
+                 position: relative;
+                 text-align: center;
+                 color: rgb(241, 238, 245);
+                }
+            .second-txt {
+                position: absolute;
+                 top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                }
+                label {
+                     width:200px;
+                     display: block;
+                     text-align:left;
+                     float: left;
+                     margin-right:5px;
+                     padding-right:8px;
+                      }
+                      input{
+                        text-align:left;
+                        float:left;
+                        margin-right:5px;
+                      }
+        </style>
+    </head>
+    <body>
+        <div class="contact">
+            <div><img  class="bolo" src="bolo.jpg.png" alt="bolo icon" align="left" ></div>
+            <div>
+                <a href="indexh.html"><button class="btn" > Home  </button></a>
+                <a href="indexa.html"><button class="btn" > About Us  </button></a>
+                <a href="indexs.html"><button class="btn" > Service  </button></a>
+                <a href="indexp.html"><button class="btn" > Portfolio  </button></a>
+                <a href="indexb.html"><button class="btn" > Blog  </button></a>
+            <a href="indexc.html"><button class="btn" > Contact  </button></a>
+        </div>
+
+        <section>
+        <div  class="imageContainer">
+        <img   src="c1.jpg" style="width:100%;height:500px">
+        <div class="second-txt"><h1>Contact Us</h1> </br> <h2>get in touch with us </h2></div></div></section><br>
+        
+
+        <section>
+            <div class="formpage">
+                <form>
+                <hr>
+                <fieldset>
+                <div><label for="email"  ><b>your name</b>
+                <input  type="text" placeholder="your name" name="email"  ></label></div><br><br>
+                <div><label for="pwd"><b>your email-id</b>
+                <input type="password" placeholder="your email-id" name="pwd" ></label></div><br><br>
+                <label for="confirm"><b>your phone number</b>
+                <input type="password" placeholder="your phone number" name="confirm"></label><br><br>
+                <input type="submit" value="Submit">
+                <label for="confirm"><b>your message</b></label>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                </fieldset>
+            <hr>
+            </form>
+
+            </div>
+        </section>
+    </body>
+</html>
